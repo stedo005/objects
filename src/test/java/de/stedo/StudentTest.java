@@ -7,8 +7,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class StudentTest {
 
 
-
-
     @Test
     void getFirstname() {
 
@@ -38,5 +36,25 @@ class StudentTest {
         assertEquals(43, actual);
 
     }
+
+/*    @Test
+    void testConstructor() {
+
+        var student = new Student("Andrè", "Schreck", 35);
+        System.out.println(student.toString());
+        String actual = student.toString();
+        assertEquals("Vorname: Andrè\nNachname: Schreck\nAlter: 35", actual);
+
+    }
+
+    @Test
+    void testEquals() {
+
+        var student = new Student("Andrè", "Schreck", 35);
+        var student1 = new Student("Andrè", "Schreck", 35);
+        boolean actual = student.equals(student1);
+        assertTrue(actual);
+
+    }*/
 
 }
